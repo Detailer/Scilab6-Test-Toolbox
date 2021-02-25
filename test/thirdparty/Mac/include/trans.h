@@ -1,0 +1,1 @@
+void transpose(double* origMatrix, int R, int C, double* transMatrix);
