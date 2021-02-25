@@ -16,7 +16,7 @@ This toolbox overall demonstrates
   
 
 ## Transpose Task
-How to Run:
+#### How to Run:
 1. Clone the repo `git clone https://github.com/Detailer/Scilab6-Test-Toolbox`
 2. cd into the test directory `cd Scilab6-Test-Toolbox/test`
 3. Make run script executable `chmod +x run.sh`
@@ -26,6 +26,6 @@ How to Run:
 7. Load the toolbox by `exec loader.sce`
 8. Test the function by `y = transpose(A);` where A is a real matrix.
 
-How to unload the toolbox:
+### How to unload the toolbox:
 
 1.  In scilab, at the root directory, run exec `unloader.sce` followed by `ulink`
