@@ -5,3 +5,11 @@ This toolbox overall demonstrates
 2. How to add a function defined in Scilab in Scilab
 3. How to write help for the added functions
 4. How to create a toolbox out of the above functions.
+
+Tranpose Task
+
+How to Run:
+1. chmod +x test/run.sh
+2. Copy thirdpart folder to root directory
+3. In scilab exec builder.sce
+4. exec loader.sce
