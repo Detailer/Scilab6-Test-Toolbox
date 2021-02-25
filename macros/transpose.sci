@@ -10,24 +10,25 @@
 // Email: toolbox@scilab.in
 
 
-function [y] = multiply()
-    //   Calls a multiplication function defined in C with given inputs and returns the expected result
+function [y] = transpose()
+    //   Calls a transpose function defined in C with given inputs and returns the expected result
     //
     //   Syntax
-    //   y = multiply(in1,in2)
+    //   y = transpose(in1)
     //   
     //   Parameters
-    //   y : ouput 
-    //   in1 and in2 : Numbers to multiply
+    //   y : output 
+    //   in1 : 2D Matrix to Transpose
     //   
     //   Description
-    //   This function accepts accepts two numbers and multiply them
+    //   This function accepts one 2D matrix and transposes it
     //
     //
     // Examples 
-    // // Multiplying two numbers
-	// y = multiply(3,5)
+    // // transposing a 2D Matrix
+	// A = [1, 2; 3, 4]
+    // y = transpose(A)
 	//
 // Authors
-// Rupak Rokade
+// detailer
 endfunction
