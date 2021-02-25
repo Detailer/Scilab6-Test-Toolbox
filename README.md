@@ -4,7 +4,7 @@
 1. Clone the repo `git clone https://github.com/Detailer/Scilab6-Test-Toolbox`
 2. cd into the test directory `cd Scilab6-Test-Toolbox/test`
 3. Make run script executable `chmod +x run.sh`
-4. Run the script `./run.sh`
+4. Run the script `./run.sh`, or use the prebuilt thirdparty directory.
 5. Copy the created thirdparty folder in test directory to root directory
 6. In scilab, navigate  to the too root toolbox folder and run `exec builder.sce` to build the toolbox
 7. Load the toolbox by `exec loader.sce`
